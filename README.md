@@ -7,6 +7,10 @@ A simple demo to display food trucks
 3. (```cd backend```), run (```npm install```), then (```npm start```)
 4. access http://localhost:3000/
 
+## Deploy to Production
+* servers: use pm2 manage process and load balancing
+* Cloud: build and utilize cloud capabilities to scale and make sure availability
+
 ## Description
 This is a simple full-stack app implemented with React & NodeJs
 Basic idea is backend read data from csv and return in JSON format
